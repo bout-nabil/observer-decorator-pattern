@@ -1,7 +1,6 @@
-package nbo.obs;
+package nbo.obs.obsPush;
 
 import java.awt.*;
-import java.awt.event.ActionListener;
 
 public class TestMain2 {
     public static void main(String[] args) {

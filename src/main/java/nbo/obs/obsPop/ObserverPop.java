@@ -1,5 +1,7 @@
-package nbo.obs;
+package nbo.obs.obsPop;
+
+import nbo.obs.obsPush.Observable;
 
 public interface ObserverPop {
-    void update(Observable observable);
+    void update(ObservablePop observablePop);
 }

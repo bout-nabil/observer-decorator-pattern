@@ -1,9 +1,10 @@
-package nbo.obs;
+package nbo.obs.obsPop;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ObservablePopImpl implements ObservablePop {
+    private int state;
     List<ObserverPop> observersPop = new ArrayList<>();
     @Override
     public void addObserverPop(ObserverPop o) {
@@ -17,10 +18,17 @@ public class ObservablePopImpl implements ObservablePop {
 
     @Override
     public void notifyObserversPop() {
-        for (ObserverPop o : observersPop) {}
+        for (ObserverPop o : observersPop) {
+            o.update(this);
+        }
+    }
+
+    public void setState(int state) {
+        this.state = state;
+        notifyObserversPop();
     }
 
     public int getState() {
-        return 0;
+        return state;
     }
 }

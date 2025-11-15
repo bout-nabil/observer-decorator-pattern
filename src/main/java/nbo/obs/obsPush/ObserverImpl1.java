@@ -1,4 +1,4 @@
-package nbo.obs;
+package nbo.obs.obsPush;
 
 public class ObserverImpl1 implements Observer {
     @Override

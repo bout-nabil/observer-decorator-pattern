@@ -1,4 +1,4 @@
-package nbo.obs;
+package nbo.obs.obsPop;
 
 public interface ObservablePop {
     void addObserverPop(ObserverPop o);

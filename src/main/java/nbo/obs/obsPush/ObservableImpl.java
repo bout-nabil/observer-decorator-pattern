@@ -1,4 +1,4 @@
-package nbo.obs;
+package nbo.obs.obsPush;
 
 import java.util.ArrayList;
 import java.util.List;
