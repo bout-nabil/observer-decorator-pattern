@@ -1,4 +1,4 @@
-package nbo.obs;
+package nbo.obs.obsPush;
 
 public class TestMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package nbo.obs;
+package nbo.obs.obsPush;
 
 public interface Observable {
     void addObserver(Observer o);
